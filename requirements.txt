@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+# Optional: only needed for the LLM planner/synthesizer. The agent runs fully
+# without it via a deterministic rule-based planner.
+anthropic>=0.40
